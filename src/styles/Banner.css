@@ -1,0 +1,51 @@
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.banner-image {
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.text-container {
+    margin-bottom: 20px;
+}
+
+.list-item {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.award-text {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.heading {
+    margin: 0;
+    text-align: start;
+}
+
+@media (max-width: 768px) {
+    .banner-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

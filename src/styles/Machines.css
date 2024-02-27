@@ -1,0 +1,33 @@
+.machines-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .description {
+    font-size: 10px;
+    margin: 5px;
+    font-weight: 500;
+    text-align: justify;
+  }
+  
+  .machines-image {
+    width: 80%;
+  }
+  
+  @media (max-width: 768px) {
+    .machines-container {
+      margin-top: 10px;
+    }
+  
+    .description {
+      font-size: 8px;
+    }
+  
+    .machines-image {
+      width: 95%;
+    }
+  }
+  
